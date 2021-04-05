@@ -9,10 +9,8 @@ const Post = ({ post }) => {
     <section className='post'>
       <div className='post-content'>
         <div className='img-container'>
-          <div className='img-container-header'>
-            <span className='creator'>{post.creator}</span>
-            <BsThreeDots />
-          </div>
+          <span className='creator'>{post.creator}</span>
+          <BsThreeDots className='dots' />
           <span className='date'>{moment(post.createdAt).fromNow()}</span>
           <img src={post.image} alt='post image' />
         </div>
