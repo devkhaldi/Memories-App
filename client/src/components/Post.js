@@ -12,11 +12,11 @@ const Post = ({ post }) => {
           <BsThreeDots />
         </div>
         <span className='date'>{moment(post.createdAt).fromNow()}</span>
-        <img src={post.img} alt='post image' />
+        <img src={post.image} alt='post image' />
       </div>
       <div className='tags'></div>
       <div className='title'>{post.title}</div>
-      <div className='description'>{post.description}</div>
+      <div className='description'>{post.message}</div>
       <div className='actions'>
         <button className='like'>
           <AiOutlineLike />
