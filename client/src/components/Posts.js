@@ -1,5 +1,6 @@
 import postImage from "../images/solo-skydiving.jpg"
 import Post from "./Post"
+import "./styles/Posts.css"
 
 const Posts = () => {
   return (
