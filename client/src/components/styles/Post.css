@@ -11,7 +11,7 @@
 
   position: relative;
 }
-
+/* post image container */
 .post .img-container {
   position: relative;
 }
@@ -39,4 +39,26 @@
 .post img {
   max-width: 100% !important;
   border-radius: 1rem 1rem 0 0;
+}
+
+/* post info */
+
+.post .post-info {
+  padding: 0.5rem;
+}
+
+.post .post-info .tags span {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+.post .post-info .title {
+  font-size: 1.1rem;
+  margin: 0.7rem 0;
+  font-weight: 600;
+}
+.post .post-info .message {
+  color: #777;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }

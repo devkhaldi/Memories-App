@@ -15,6 +15,7 @@ const Posts = () => {
 const posts = [
   {
     id: 1,
+    title: "Lorem ipsum dolor sit",
     creator: "EL khaldi",
     image: postImage,
     message:
@@ -25,6 +26,7 @@ const posts = [
   },
   {
     id: 2,
+    title: "Lorem ipsum dolor sit",
     creator: "EL khaldi",
     image: postImage,
     message:
@@ -35,6 +37,7 @@ const posts = [
   },
   {
     id: 3,
+    title: "Lorem ipsum dolor sit",
     creator: "EL khaldi",
     image: postImage,
     message:
@@ -45,6 +48,7 @@ const posts = [
   },
   {
     id: 4,
+    title: "Lorem ipsum dolor sit",
     creator: "EL khaldi",
     image: postImage,
     message:
