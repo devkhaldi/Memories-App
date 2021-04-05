@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "../images/logo.png"
 import { IoIosAdd } from "react-icons/io"
+import "./styles/Header.css"
 
 const Header = () => {
   return (
