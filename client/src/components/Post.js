@@ -14,7 +14,11 @@ const Post = ({ post }) => {
         <span className='date'>{moment(post.createdAt).fromNow()}</span>
         <img src={post.image} alt='post image' />
       </div>
-      <div className='tags'></div>
+      <div className='tags'>
+        {post.tags.map(tag => (
+          <span>{tag}</span>
+        ))}
+      </div>
       <div className='title'>{post.title}</div>
       <div className='description'>{post.message}</div>
       <div className='actions'>
