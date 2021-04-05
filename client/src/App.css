@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: url("https://cdn.hipwallpaper.com/i/65/2/P5TnGy.jpg");
+  background: url("./images/bg.jpg");
+  /* background: url("https://cdn.hipwallpaper.com/i/65/2/P5TnGy.jpg"); */
   padding: 0 4rem;
 }
