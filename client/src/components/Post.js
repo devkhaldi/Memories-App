@@ -25,11 +25,11 @@ const Post = ({ post }) => {
           <div className='actions'>
             <button className='like'>
               <AiOutlineLike />
-              Like {post.likeCount}
+              LIKE {post.likeCount}
             </button>
             <button className='delete'>
               <AiOutlineDelete />
-              Delete
+              DELETE
             </button>
           </div>
         </div>
