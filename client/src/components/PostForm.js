@@ -1,4 +1,5 @@
 import ReactDom from "react-dom"
+import "./styles/PostForm.css"
 
 const PostForm = ({ post }) => {
   return ReactDom.createPortal(
