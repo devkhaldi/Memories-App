@@ -1,5 +1,26 @@
 #postModal .modal-content {
-  padding: 1rem;
-  background: #fafafa;
+  padding: 0.2rem;
+  background: #eee;
   opacity: 0.95;
+}
+#postModal h4 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+#postModal input,
+#postModal textarea {
+  margin-bottom: 0.5rem;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+#postModal input:focus,
+#postModal textarea:focus {
+  background: #fafafa;
+}
+
+#postModal input[type="submit"] {
+  background: var(--primary-color);
+  color: white;
 }

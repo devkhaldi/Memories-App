@@ -6,9 +6,9 @@ const PostForm = ({ post }) => {
     <div className='modal fade' id='postModal' tabindex='-1'>
       <div className='modal-dialog'>
         <div className='modal-content'>
-          <h5 className='modal-title'>
+          <h4 className='modal-title'>
             {post ? `Edit ${post.title}` : "Create new post"}
-          </h5>
+          </h4>
           <div className='modal-body'>
             {/* post form */}
             {/* prettier-ignore */}
@@ -17,9 +17,9 @@ const PostForm = ({ post }) => {
                 <input type="text" className='form-control' placeholder='Title'/>
                 <textarea cols="30" className='form-control' rows="10" placeholder='Message'></textarea>
                 <input type="text" className='form-control' placeholder='Tags ( Coms separated)'/>
-                <input type="file"/>
-                <input type="submit"/>
-                <input type="clear"/>
+                <input type="file" className='form-control'/>
+                <input type="submit" className='form-control' value='SUBMIT'/>
+                <input type="reset" className='form-control' value='CLEAR'/>
             </form>
           </div>
         </div>
