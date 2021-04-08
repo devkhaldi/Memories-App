@@ -9,10 +9,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #f5f5f5;
-  /* background: url("./images/bg.jpg"); */
+  /* background: #f5f5f5; */
+  background: url("./images/bg.jpg");
   /* background: url("https://cdn.hipwallpaper.com/i/65/2/P5TnGy.jpg"); */
   padding: 0 4rem;
+  /* background-size: cover; */
 }
 
 @media (max-width: 1000px) {
