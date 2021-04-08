@@ -77,3 +77,15 @@
   position: absolute;
   right: 0.5rem;
 }
+
+@media (max-width: 1000px) {
+  .post {
+    width: 50%;
+  }
+}
+
+@media (max-width: 630px) {
+  .post {
+    width: 100%;
+  }
+}
